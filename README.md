@@ -1,2 +1,2 @@
 # RDBMS
-Different Concepts of various RDBMS
+Concepts of different RDBMS
