@@ -22,13 +22,12 @@ DROP PROCEDURE IF EXISTS QA.get_account;
 DELIMITER //
 CREATE PROCEDURE QA.get_account(in acc_name varchar(100))
 BEGIN
-	SELECT * FROM dax_raw.rw_account_master where account_name=acc_name limit 10;
+	SELECT * FROM dax_raw.fc_account_master where account_name=acc_name limit 10;
 END //
 DELIMITER ;
 
 
 CALL QA.get_account('YOGENDRA PRASAD CHAULAGAIN');
-
 
 
 

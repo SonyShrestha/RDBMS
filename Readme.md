@@ -22,6 +22,31 @@ SQL
       <li>Temporary Table</li>
       <li>Index</li>
       <li>View</li>
+      <li>Trigger</li>
+      <li>ViewDerivedTableCTE</li>
+      <li>Pivot</li>
+      <li>ErrorHandling</li>
+      <li>Transactions</li>
+      <li>IsolationLevel</li>
+      <li>Subquery</li>
+      <li>CorrelatedSubquery</li>
+      <li>QueryCache</li>
+      <li>ListObjects</li>
+      <li>RerunnableQuery</li>
+      <li>Merge</li>
+      <li>DeadLock</li>
+      <li>TryCatchinDeadLock</li>
+      <li>SetOperator</li>
+      <li>SelectInto</li>
+      <li>GroupingSets</li>
+      <li>Rollup</li>
+      <li>Over</li>
+      <li>Ntile</li>
+      <li>LeadLag</li>
+      <li>FirstValue</li>
+      <li>WindowFunction</li>
+      <li>IIF</li>
+      <li>Normalization</li>
     </ul>
 </li>
 <li>
@@ -42,6 +67,19 @@ MySQL
       <li>Function</li>
       <li>Temporary Table</li>
       <li>Index</li>
+      <li>View</li>
+      <li>Trigger</li>
+      <li>ViewDerivedTableCTE</li>
+      <li>ConvertRowstoColumn</li>
+      <li>ErrorHandlingSP</li>
+      <li>Transaction</li>
+      <li>IsolationLevel</li>
+      <li>SubQuery</li>
+      <li>CorrelatedSubquery</li>
+      <li>QueryCache</li>
+      <li>ListObjects</li>
+      <li>DeadLock</li>
+      <li>CreateLike</li>
     </ul>
 </li>
 </li>

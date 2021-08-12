@@ -96,3 +96,29 @@ sp_depends get_account;
 a) Execution plan retention and reusability
 b) Code reusability
 */
+
+
+
+
+
+-- Optional Parameters in Stored Procedure
+-- Parameters of Stored Procedure can be made optional by specifying default value of parameters;
+-- Create Procedure with input parameter
+insert into employee (name,salary) values ('B',10);
+
+ALTER PROCEDURE get_account(@acc_name varchar(100)='B')
+AS
+BEGIN
+	SELECT * FROM [employee] where name=@acc_name;
+END
+
+
+ALTER PROCEDURE get_account(@acc_name varchar(100)=NULL)
+AS
+BEGIN
+	SELECT * FROM [employee] where name=@acc_name;
+END
+
+get_account;
+Exec get_account;
+Execute get_account;

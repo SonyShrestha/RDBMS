@@ -32,3 +32,5 @@ ALTER DATABASE sample_db SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
 -- Note: System Databases cannot be dropped.
 
 
+
+

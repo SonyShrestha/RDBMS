@@ -98,7 +98,7 @@ had created this temporary table
 d) Automatically dropped when the session			Automatically dropped when the last connection referencing 
 that created temporary table is closed				to global temporary table is dropped
 
-e) Two local temp table with same name				Two local temp table with same name	
+e) Two local temp table with same name				Two global temp table with same name	
 can be created from two different sessions			cannot be created from two different sessions
 
 

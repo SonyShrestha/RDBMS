@@ -87,7 +87,7 @@ b) Additional disk space required for non clustered index.
 
 -- Covering query
 -- If all the columns requested in SELECT clause of query are present in index, there is no need to lookup in table again. 
--- The reuested columns can simply be returned from index.
+-- The requested columns can simply be returned from index.
 -- Such type of query is called covering query and such type of index is called covering index.
 
 -- Clustered index will always cover a query.

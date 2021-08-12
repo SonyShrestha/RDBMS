@@ -58,7 +58,7 @@ select DATEADD(MONTH,2,'2020-01-01');
 select DATEADD(YEAR,2,'2020-01-01');
 
 
--- Returns new date after adding specified interval in given date
+-- 
 select DATEDIFF(DAY,'2020-01-01','2021-01-01');
 select DATEDIFF(MONTH,'2020-01-01','2021-01-01');
 select DATEDIFF(YEAR,'2020-01-01','2021-01-01');
